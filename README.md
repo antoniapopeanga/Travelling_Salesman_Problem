@@ -68,8 +68,17 @@ double tsp_greedy(point *V, int n, int *P);
 ```
 
 #### 🔹 Minimum Spanning Tree (MST)
-- Uses Prim's/Kruskal's algorithm  
-- 2-approximation guarantee  
+- Uses Kruskal's algorithm  
+- 2-approximation guarantee
+- Union operation to combine tree branches
+ ```c
+graph createGraph(int n)
+void dfs(graph G, int u, int *P, int p)
+
+void Union(int x, int y, int *parent, int *rank) 
+
+double tsp_mst(point *V, int n, int *P, graph T)
+```   
 
 ---
 
