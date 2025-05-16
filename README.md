@@ -45,7 +45,10 @@ double tsp_brute_force(point *V, int n, int *P);
 
 #### 🔹 Dynamic Programming (Held-Karp)
 - `O(n²·2ⁿ)` time complexity  
-- Uses memoization for efficiency  
+- Uses memoization for efficiency
+```c
+ double tsp_prog_dyn(point *V, int n, int *Q)
+```
 
 ---
 
